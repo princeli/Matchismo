@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0881815A1BB68AF80002A43F /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 088181591BB68AF80002A43F /* Card.m */; settings = {ASSET_TAGS = (); }; };
 		08C9D3661BB6749F0099CA1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C9D3651BB6749F0099CA1A /* main.m */; };
 		08C9D3691BB6749F0099CA1A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C9D3681BB6749F0099CA1A /* AppDelegate.m */; };
 		08C9D36C1BB6749F0099CA1A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C9D36B1BB6749F0099CA1A /* ViewController.m */; };
 		08C9D36F1BB6749F0099CA1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08C9D36D1BB6749F0099CA1A /* Main.storyboard */; };
 		08C9D3711BB6749F0099CA1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08C9D3701BB6749F0099CA1A /* Assets.xcassets */; };
 		08C9D3741BB6749F0099CA1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08C9D3721BB6749F0099CA1A /* LaunchScreen.storyboard */; };
+		08CA06DA1BBA05F000E89B65 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 08CA06D91BBA05F000E89B65 /* Deck.m */; settings = {ASSET_TAGS = (); }; };
+		08CA06DD1BBA074000E89B65 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 08CA06DC1BBA074000E89B65 /* PlayingCard.m */; settings = {ASSET_TAGS = (); }; };
+		08CA06E01BBA099200E89B65 /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 08CA06DF1BBA099200E89B65 /* PlayingCardDeck.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		088181581BB68AF80002A43F /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Card.h; path = Model/Card.h; sourceTree = "<group>"; };
+		088181591BB68AF80002A43F /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Card.m; path = Model/Card.m; sourceTree = "<group>"; };
 		08C9D3611BB6749F0099CA1A /* Matchismo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Matchismo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08C9D3651BB6749F0099CA1A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		08C9D3671BB6749F0099CA1A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +32,12 @@
 		08C9D3701BB6749F0099CA1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08C9D3731BB6749F0099CA1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		08C9D3751BB6749F0099CA1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08CA06D81BBA05F000E89B65 /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Deck.h; path = Model/Deck.h; sourceTree = "<group>"; };
+		08CA06D91BBA05F000E89B65 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Deck.m; path = Model/Deck.m; sourceTree = "<group>"; };
+		08CA06DB1BBA074000E89B65 /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayingCard.h; path = Model/PlayingCard.h; sourceTree = "<group>"; };
+		08CA06DC1BBA074000E89B65 /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayingCard.m; path = Model/PlayingCard.m; sourceTree = "<group>"; };
+		08CA06DE1BBA099200E89B65 /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayingCardDeck.h; path = Model/PlayingCardDeck.h; sourceTree = "<group>"; };
+		08CA06DF1BBA099200E89B65 /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayingCardDeck.m; path = Model/PlayingCardDeck.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +51,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0881815B1BB68B390002A43F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				088181581BB68AF80002A43F /* Card.h */,
+				088181591BB68AF80002A43F /* Card.m */,
+				08CA06D81BBA05F000E89B65 /* Deck.h */,
+				08CA06D91BBA05F000E89B65 /* Deck.m */,
+				08CA06DB1BBA074000E89B65 /* PlayingCard.h */,
+				08CA06DC1BBA074000E89B65 /* PlayingCard.m */,
+				08CA06DE1BBA099200E89B65 /* PlayingCardDeck.h */,
+				08CA06DF1BBA099200E89B65 /* PlayingCardDeck.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		08C9D3581BB6749E0099CA1A = {
 			isa = PBXGroup;
 			children = (
@@ -58,8 +85,7 @@
 		08C9D3631BB6749F0099CA1A /* Matchismo */ = {
 			isa = PBXGroup;
 			children = (
-				08C9D3671BB6749F0099CA1A /* AppDelegate.h */,
-				08C9D3681BB6749F0099CA1A /* AppDelegate.m */,
+				0881815B1BB68B390002A43F /* Model */,
 				08C9D36A1BB6749F0099CA1A /* ViewController.h */,
 				08C9D36B1BB6749F0099CA1A /* ViewController.m */,
 				08C9D36D1BB6749F0099CA1A /* Main.storyboard */,
@@ -74,6 +100,8 @@
 		08C9D3641BB6749F0099CA1A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				08C9D3671BB6749F0099CA1A /* AppDelegate.h */,
+				08C9D3681BB6749F0099CA1A /* AppDelegate.m */,
 				08C9D3651BB6749F0099CA1A /* main.m */,
 			);
 			name = "Supporting Files";
@@ -150,9 +178,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08CA06DD1BBA074000E89B65 /* PlayingCard.m in Sources */,
+				08CA06DA1BBA05F000E89B65 /* Deck.m in Sources */,
 				08C9D36C1BB6749F0099CA1A /* ViewController.m in Sources */,
 				08C9D3691BB6749F0099CA1A /* AppDelegate.m in Sources */,
+				08CA06E01BBA099200E89B65 /* PlayingCardDeck.m in Sources */,
 				08C9D3661BB6749F0099CA1A /* main.m in Sources */,
+				0881815A1BB68AF80002A43F /* Card.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +333,7 @@
 				08C9D37A1BB6749F0099CA1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
