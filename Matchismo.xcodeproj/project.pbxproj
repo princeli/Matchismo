@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0881815A1BB68AF80002A43F /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 088181591BB68AF80002A43F /* Card.m */; settings = {ASSET_TAGS = (); }; };
+		0881815A1BB68AF80002A43F /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 088181591BB68AF80002A43F /* Card.m */; };
 		08C9D3661BB6749F0099CA1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C9D3651BB6749F0099CA1A /* main.m */; };
 		08C9D3691BB6749F0099CA1A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C9D3681BB6749F0099CA1A /* AppDelegate.m */; };
 		08C9D36C1BB6749F0099CA1A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C9D36B1BB6749F0099CA1A /* ViewController.m */; };
 		08C9D36F1BB6749F0099CA1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08C9D36D1BB6749F0099CA1A /* Main.storyboard */; };
 		08C9D3711BB6749F0099CA1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08C9D3701BB6749F0099CA1A /* Assets.xcassets */; };
 		08C9D3741BB6749F0099CA1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08C9D3721BB6749F0099CA1A /* LaunchScreen.storyboard */; };
-		08CA06DA1BBA05F000E89B65 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 08CA06D91BBA05F000E89B65 /* Deck.m */; settings = {ASSET_TAGS = (); }; };
-		08CA06DD1BBA074000E89B65 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 08CA06DC1BBA074000E89B65 /* PlayingCard.m */; settings = {ASSET_TAGS = (); }; };
-		08CA06E01BBA099200E89B65 /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 08CA06DF1BBA099200E89B65 /* PlayingCardDeck.m */; settings = {ASSET_TAGS = (); }; };
+		08CA06DA1BBA05F000E89B65 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 08CA06D91BBA05F000E89B65 /* Deck.m */; };
+		08CA06DD1BBA074000E89B65 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 08CA06DC1BBA074000E89B65 /* PlayingCard.m */; };
+		08CA06E01BBA099200E89B65 /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 08CA06DF1BBA099200E89B65 /* PlayingCardDeck.m */; };
+		08F71A541BEB12FD004641E6 /* CardMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F71A531BEB12FD004641E6 /* CardMatchingGame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,8 @@
 		08CA06DC1BBA074000E89B65 /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayingCard.m; path = Model/PlayingCard.m; sourceTree = "<group>"; };
 		08CA06DE1BBA099200E89B65 /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayingCardDeck.h; path = Model/PlayingCardDeck.h; sourceTree = "<group>"; };
 		08CA06DF1BBA099200E89B65 /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayingCardDeck.m; path = Model/PlayingCardDeck.m; sourceTree = "<group>"; };
+		08F71A521BEB12FD004641E6 /* CardMatchingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardMatchingGame.h; path = Model/CardMatchingGame.h; sourceTree = "<group>"; };
+		08F71A531BEB12FD004641E6 /* CardMatchingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CardMatchingGame.m; path = Model/CardMatchingGame.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				08CA06DC1BBA074000E89B65 /* PlayingCard.m */,
 				08CA06DE1BBA099200E89B65 /* PlayingCardDeck.h */,
 				08CA06DF1BBA099200E89B65 /* PlayingCardDeck.m */,
+				08F71A521BEB12FD004641E6 /* CardMatchingGame.h */,
+				08F71A531BEB12FD004641E6 /* CardMatchingGame.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -182,6 +187,7 @@
 				08CA06DA1BBA05F000E89B65 /* Deck.m in Sources */,
 				08C9D36C1BB6749F0099CA1A /* ViewController.m in Sources */,
 				08C9D3691BB6749F0099CA1A /* AppDelegate.m in Sources */,
+				08F71A541BEB12FD004641E6 /* CardMatchingGame.m in Sources */,
 				08CA06E01BBA099200E89B65 /* PlayingCardDeck.m in Sources */,
 				08C9D3661BB6749F0099CA1A /* main.m in Sources */,
 				0881815A1BB68AF80002A43F /* Card.m in Sources */,
